@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<JobList>
+  <Job OutputType="Application">
+    <CurrentBuildId>
+      <ComponentSubtypeIdentifier>Application</ComponentSubtypeIdentifier>
+      <BuildId>3daf7cf2-985f-4b10-ae8e-07ed83d37540</BuildId>
+    </CurrentBuildId>
+    <RootBuildId>
+      <ComponentSubtypeIdentifier>Application</ComponentSubtypeIdentifier>
+      <BuildId>3daf7cf2-985f-4b10-ae8e-07ed83d37540</BuildId>
+    </RootBuildId>
+    <OutputPath>Builds\600SeriesTestEnvironment_This Computer\600SeriesTestEnvironment.exe\600SeriesTestEnvironment.exe</OutputPath>
+    <BuildName>600SeriesTestEnvironment</BuildName>
+    <State>Success</State>
+    <LastTotalTime>00:00:14</LastTotalTime>
+    <StartTime>2020-05-22T12:57:44.3463040Z</StartTime>
+    <HasChild>True</HasChild>
+    <IsStale>False</IsStale>
+    <QualifiedName>::DevSystem::Interactive::600SeriesTestEnvironment.gcomp</QualifiedName>
+    <HintEnvoy>::DevSystem::Interactive::600SeriesTestEnvironment.gcomp</HintEnvoy>
+  </Job>
+</JobList>

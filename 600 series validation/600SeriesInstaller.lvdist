@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SourceFile Checksum="E0521C8A4E38E654BDB64AB3823582722507E5503DE62CC3AFB9F06C1820DA6E3081455C4DE1219B333F8BE4B08AF98B1AD246934D179118601AC6395475CD70" Timestamp="1D62F8026C45169" xmlns="http://www.ni.com/PlatformFramework">
+	<SourceModelFeatureSet>
+		<ParsableNamespace AssemblyFileVersion="7.1.0.50148" FeatureSetName="GComponentFeatureSet" Name="http://www.ni.com/GComponent.xsd" OldestCompatibleVersion="7.1.0.49152" Version="7.1.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="7.1.0.50148" FeatureSetName="Editor" Name="http://www.ni.com/PlatformFramework" OldestCompatibleVersion="7.1.0.49153" Version="7.1.0.49153" />
+		<ApplicationVersionInfo Build="7.1.0.50148" Name="LabVIEW NXG" Version="4.0.0" />
+	</SourceModelFeatureSet>
+	<DistributionDefinition Company="Ei Electronics" Product="600SeriesTestEnvironment" ShortDescription="Ei Electronics 600 series validation" TargetedProduct="LabVIEW" Version="1.0.0.1" xmlns="http://www.ni.com/GComponent.xsd">
+		<DistributionDependencyContent DisplayName="ni-certificates" Id="a76f946be5b7488faf994a17961d2dc2" Included="False" Name="ni-certificates" RequirementType="Recommended" VersionRequirement="None" />
+		<DistributionOutput CachedDisplayName="Package Installer" Id="6069d58c96e74e4481663f9a7a71762f" p3:CustomNipmPackageName="eielectronics-600seriesvalidation" p3:DistributionCategory="Application" p3:MaintainerEmail="joe.daly@eielectronics.ie" p3:MaintainerName="Ei Electronics" p3:PackageDisplayName="Package" xmlns:p3="http://www.ni.com/GComponent.xsd" />
+		<DistributionBuildTarget Id="3ccd2269368d46cc8fbd4ab10b6a3d9f" Target="::DevSystem" />
+		<DistributionMemberDependencySource Id="132f3c3ee1734ac4bfdc7cc30c76f326" MemberContentType="{http://www.ni.com/GComponent.xsd}Component_Rebuild" RootLocation="ApplicationFiles_64" Target="::DevSystem::Interactive::600SeriesTestEnvironment.gcomp" />
+		<DistributionDependencyContent DisplayName="Measurement Studio Common Runtime for .NET Framework 4.0" Id="c8852fcf7ede4383a1146db83856942d" Included="False" MaintainerName="National Instruments" Name="ni-mstudio-common-fx40-19.0.0-runtime" Version="19.0.0.49152-0+f0" />
+		<DistributionDependencyContent DisplayName="Measurement Studio Analysis Runtime 17.0 for .NET Framework 4.5" Id="31a821944baf4647bdfb8c619c2a8dd3" Included="False" MaintainerName="National Instruments" Name="ni-mstudio-analysis-fx45-runtime" Version="17.0.0.49153-0+f1" />
+		<DistributionDependencyContent DisplayName="LabVIEW NXG Run-Time Engine" Id="2bce4fdb2433446fb149cf557c3040ad" Included="False" MaintainerName="National Instruments" Name="ni-labview-nxg-4.0.0-rte" Version="7.1.0.49153-0+f1" />
+		<DistributionDependencyContent DisplayName="NI Vision Core API Support for LabVIEW NXG 4.0 Run-Time Engine" Id="3ad6a373e2fd44e2b3daaf10e6cbe160" Included="False" MaintainerName="National Instruments" Name="ni-vision-common-labview-nxg-4.0.0-rte-support" Version="19.5.0.49152-0+f0" />
+		<DistributionDependencyContent DisplayName="NI-VISA support for LabVIEW NXG 4.0 Run-Time Engine" Id="f2ecc6bd3721440dbb1c16f352780341" Included="False" MaintainerName="National Instruments" Name="ni-visa-labview-nxg-4.0.0-rte-support" Version="19.5.0.49152-0+f0" />
+		<DistributionDependencyContent DisplayName="NI-DAQmx Support for LabVIEW NXG 4.0 Run-Time Engine" Id="7ba16e99d2c54f69a054d075f4ade3e9" Included="False" MaintainerName="National Instruments" Name="ni-daqmx-labview-nxg-4.0.0-rte-support" Version="19.5.0.49152-0+f0" />
+	</DistributionDefinition>
+</SourceFile>

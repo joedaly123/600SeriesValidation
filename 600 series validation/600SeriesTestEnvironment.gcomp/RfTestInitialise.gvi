@@ -1,0 +1,523 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SourceFile Checksum="2EC6B8E9E49A02FE8874FB2275B61806BF190E3F6B866004F51485CE4D57DE8847D2B2AB421FB6172B3F7464DD126E6E3959BA9866BCA6979A082040BD31A874" Timestamp="1D61D4FABB557F8" xmlns="http://www.ni.com/PlatformFramework">
+	<SourceModelFeatureSet>
+		<ParsableNamespace AssemblyFileVersion="7.1.0.50148" FeatureSetName="LabVIEW Controls" Name="http://www.ni.com/Controls.LabVIEW.Design" OldestCompatibleVersion="7.1.0.49152" Version="7.1.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="7.1.0.50148" FeatureSetName="LabVIEW Virtual Instrument" Name="http://www.ni.com/LabVIEW.VI" OldestCompatibleVersion="7.1.0.49152" Version="7.1.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="7.1.0.50148" FeatureSetName="Common language components" Name="http://www.ni.com/MocCommon" OldestCompatibleVersion="7.1.0.49153" Version="7.1.0.49153" />
+		<ParsableNamespace AssemblyFileVersion="7.1.0.50148" FeatureSetName="Editor" Name="http://www.ni.com/PanelCommon" OldestCompatibleVersion="6.1.0.0" Version="6.1.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="7.1.0.50148" FeatureSetName="Editor" Name="http://www.ni.com/PlatformFramework" OldestCompatibleVersion="7.1.0.49153" Version="7.1.0.49153" />
+		<ApplicationVersionInfo Build="7.1.0.50148" Name="LabVIEW NXG" Version="4.0.0" />
+	</SourceModelFeatureSet>
+	<VirtualInstrument Id="b05ece6d09dc4df5978a5e4d9b488a6f" xmlns="http://www.ni.com/LabVIEW.VI">
+		<Icon Id="39f9e29f5e94eaa9a0261611b7f5b45" ListViewIconCrop="0 0 40 40" xmlns="http://www.ni.com/PlatformFramework">
+			<IconPanel Height="[float]40" Id="a030a11b10f14c0d8f690dc63e01b145" Left="[float]0" PanelSizeMode="Resize" Top="[float]0" Width="[float]40">
+				<IconTemplate ClipMargin="[SMThickness]3,3,3,3" Height="[float]40" Id="13f27b4324c64160b5309b04063f0e14" Left="[float]0" TemplateName="[string]Gray" Top="[float]0" Width="[float]40">
+					<Rectangle Fill="[SMSolidColorBrush]#ff727272" Id="535c885c13ca470eb63fd4b205619bf9" IsHitTestVisible="[bool]False" Left="[float]0" RadiusX="[float]4" RadiusY="[float]4" Top="[float]0" />
+					<Rectangle Fill="[SMSolidColorBrush]#ffe5e5e5" Id="d29350d5a59c42bd8ab3ea2939bc5f96" IsHitTestVisible="[bool]False" Left="[float]0" Margin="[SMThickness]1,1,1,1" RadiusX="[float]2.5" RadiusY="[float]2.5" Stroke="[SMSolidColorBrush]#fff2f2f2" Top="[float]0" />
+					<FileNameText Attached="[bool]False" Height="[float]35" HorizontalAlignment="[HorizontalAlignment]Left" Id="bf51c6252aac41e388aa2ee2e9389923" Left="[float]0" Margin="[SMThickness]2,2,2,2" SizeMode="[TextModelSizeMode]Fixed" Text="[string]Rf&#xD;&#xA;Test&#xD;&#xA;Initialise" TextAlignment="[TextAlignment]Center" TextWrapping="[TextWrapping]Wrap" Top="[float]0" VerticalAlignment="[VerticalAlignment]Top" VerticalScrollBarVisibility="[ScrollBarVisibility]Hidden">
+						<FontSetting FontFamily="Segoe UI" FontSize="6" Id="f3075a28212f49d6a81f27d71f17f90e" />
+					</FileNameText>
+				</IconTemplate>
+			</IconPanel>
+		</Icon>
+		<ConnectorPane Height="40" Id="2b0ebc2a01640f19be0f4894283fdc1" ListViewHeight="55" ListViewWidth="150" Width="40" xmlns="http://www.ni.com/PlatformFramework">
+			<ConnectorPaneTerminal />
+			<ConnectorPaneTerminal Hotspot="0 15" />
+			<ConnectorPaneTerminal Hotspot="0 25" />
+			<ConnectorPaneTerminal Hotspot="15 0" />
+			<ConnectorPaneTerminal Hotspot="25 0" />
+			<ConnectorPaneTerminal Hotspot="40 5" ListViewHotspot="150 35" Parameter="8d5b8d6ffb2a4a709f3dced8f3700de8" />
+			<ConnectorPaneTerminal Hotspot="40 15" />
+			<ConnectorPaneTerminal Hotspot="40 25" />
+			<ConnectorPaneTerminal Hotspot="15 40" />
+			<ConnectorPaneTerminal Hotspot="25 40" />
+			<ConnectorPaneTerminal Hotspot="40 35" />
+			<ConnectorPaneTerminal Hotspot="0 35" />
+		</ConnectorPane>
+		<DiagramUnplacedItems Id="156aefc66b1549658dae8b10c42f3a28" xmlns="http://www.ni.com/MocCommon" />
+		<FrontPanelUnplacedItems Id="dfad3f5f7b84485682fa35bfdc6a576a" Left="[float]0" PanelSizeMode="Fixed" Top="[float]0">
+			<Cluster BaseName="[string]Cluster" BorderThickness="[SMThickness]1,1,1,1" ClusterType="[Type]@551a786de6df4c909b358e6763cb1d9a" Height="[float]1796" Id="59e2511adb014cac8c9df4eabcd97a23" Left="[float]0" Name="[string]Cluster" TabIndex="[int]0" Top="[float]0" Value="{DataItemBinding Id=8d5b8d6ffb2a4a709f3dced8f3700de8}" Width="[float]1193" xmlns="http://www.ni.com/PanelCommon">
+				<LED BaseName="[string]Square LED" FalseContent="[string]Off" Height="[float]24" Id="8e8f66bb4ce74c25930ae52d5aa7dca3" IsReadOnly="[bool]True" Label="[UIModel]ae98da3a162c4df59072fc32004e1741" Left="[float]4" Shape="[LEDShape]Square" Top="[float]24" TrueContent="[string]On" Value="{ClusterBinding FieldName=RF\ response_2}" Width="[float]24" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+				<Label Id="ae98da3a162c4df59072fc32004e1741" LabelOwner="[UIModel]8e8f66bb4ce74c25930ae52d5aa7dca3" Left="[float]4" Text="[string]RF response_2" Top="[float]4" />
+				<LED BaseName="[string]Square LED" FalseContent="[string]Off" Height="[float]24" Id="fcbd5564d4c04ed9829108581a7bc512" IsReadOnly="[bool]True" Label="[UIModel]85b9679a17c744e69f21df9b0c3fde6e" Left="[float]4" Shape="[LEDShape]Square" Top="[float]76" TrueContent="[string]On" Value="{ClusterBinding FieldName=ED\ Message\ Received_2}" Width="[float]24" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+				<Label Id="85b9679a17c744e69f21df9b0c3fde6e" LabelOwner="[UIModel]fcbd5564d4c04ed9829108581a7bc512" Left="[float]4" Text="[string]ED Message Received_2" Top="[float]56" />
+				<LED BaseName="[string]Square LED" FalseContent="[string]Off" Height="[float]24" Id="de4706db0e1749a19e9c57ff6033cafc" IsReadOnly="[bool]True" Label="[UIModel]5fac606655bd44f1a131c460d6565466" Left="[float]4" Shape="[LEDShape]Square" Top="[float]128" TrueContent="[string]On" Value="{ClusterBinding FieldName=UART\ ACK_2}" Width="[float]24" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+				<Label Id="5fac606655bd44f1a131c460d6565466" LabelOwner="[UIModel]de4706db0e1749a19e9c57ff6033cafc" Left="[float]4" Text="[string]UART ACK_2" Top="[float]108" />
+				<ArrayViewer ArrayElement="[UIModel]d579c3802b2b4a1ab89b6cba17f6307a" BaseName="[string]Array" Columns="[int]2" Dimensions="[int]1" Height="[float]36" Id="957f2c162ff04e83b75c04b139267cef" IndexVisibility="[Visibility]Collapsed" IsFixedSize="[bool]False" Label="[UIModel]c144da93847d4798a488a9e08e1944de" Left="[float]4" Orientation="[SMOrientation]Horizontal" Rows="[int]1" Top="[float]180" Value="{ClusterBinding FieldName=Returned\ (Parity)}" VerticalScrollBarVisibility="[ScrollBarVisibility]Visible" Width="[float]193">
+					<p.DefaultElementValue>0</p.DefaultElementValue>
+					<NumericText BaseName="[string]Numeric" Height="[float]24" Id="d579c3802b2b4a1ab89b6cba17f6307a" Interval="[uint]1" IsReadOnly="[bool]True" ValueFormatter="[string]LV:0" ValueType="[Type]UInt32" Width="[float]72" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+				</ArrayViewer>
+				<Label Id="c144da93847d4798a488a9e08e1944de" LabelOwner="[UIModel]957f2c162ff04e83b75c04b139267cef" Left="[float]4" Text="[string]Returned (Parity)" Top="[float]160" />
+				<LED BaseName="[string]Square LED" FalseContent="[string]Off" Height="[float]24" Id="c6a63474536c4c5abb58bb7e06ebcfa1" IsReadOnly="[bool]True" Label="[UIModel]3a17181e36254739a37d0aecd22fdbeb" Left="[float]4" Shape="[LEDShape]Square" Top="[float]244" TrueContent="[string]On" Value="{ClusterBinding FieldName=Test\ Type\ Match}" Width="[float]24" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+				<Label Id="3a17181e36254739a37d0aecd22fdbeb" LabelOwner="[UIModel]c6a63474536c4c5abb58bb7e06ebcfa1" Left="[float]4" Text="[string]Test Type Match" Top="[float]224" />
+				<LED BaseName="[string]Square LED" FalseContent="[string]Off" Height="[float]24" Id="fb56fafff64141a98a4486cb73a6586e" IsReadOnly="[bool]True" Label="[UIModel]316d50d63f2249618abc1b832c3db8bd" Left="[float]4" Shape="[LEDShape]Square" Top="[float]296" TrueContent="[string]On" Value="{ClusterBinding FieldName=Type_2}" Width="[float]24" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+				<Label Id="316d50d63f2249618abc1b832c3db8bd" LabelOwner="[UIModel]fb56fafff64141a98a4486cb73a6586e" Left="[float]4" Text="[string]Type_2" Top="[float]276" />
+				<LED BaseName="[string]Square LED" FalseContent="[string]Off" Height="[float]24" Id="b7d87b85a3754156b7328986121dd9d7" IsReadOnly="[bool]True" Label="[UIModel]bc44016b508c41fba7303216a7784cec" Left="[float]4" Shape="[LEDShape]Square" Top="[float]348" TrueContent="[string]On" Value="{ClusterBinding FieldName=Head\ Status\ Data}" Width="[float]24" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+				<Label Id="bc44016b508c41fba7303216a7784cec" LabelOwner="[UIModel]b7d87b85a3754156b7328986121dd9d7" Left="[float]4" Text="[string]Head Status Data" Top="[float]328" />
+				<ArrayViewer ArrayElement="[UIModel]e80d7065870f4d48af7e897da1ba5d70" BaseName="[string]Array" Columns="[int]2" Dimensions="[int]1" Height="[float]36" Id="1e30c51885944faea3bc3d25122ddaf9" IndexVisibility="[Visibility]Collapsed" IsFixedSize="[bool]False" Label="[UIModel]74a3b3486bb24421a8dcd7bf2e7ecb11" Left="[float]4" Orientation="[SMOrientation]Horizontal" Rows="[int]1" Top="[float]400" Value="{ClusterBinding FieldName=Sent}" VerticalScrollBarVisibility="[ScrollBarVisibility]Visible" Width="[float]193">
+					<p.DefaultElementValue>0</p.DefaultElementValue>
+					<NumericText BaseName="[string]Numeric" Height="[float]24" Id="e80d7065870f4d48af7e897da1ba5d70" Interval="[uint]1" IsReadOnly="[bool]True" ValueFormatter="[string]LV:0" ValueType="[Type]UInt32" Width="[float]72" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+				</ArrayViewer>
+				<Label Id="74a3b3486bb24421a8dcd7bf2e7ecb11" LabelOwner="[UIModel]1e30c51885944faea3bc3d25122ddaf9" Left="[float]4" Text="[string]Sent" Top="[float]380" />
+				<LED BaseName="[string]Square LED" FalseContent="[string]Off" Height="[float]24" Id="a279005127fc4857bb272ba197833d1b" IsReadOnly="[bool]True" Label="[UIModel]5a0681447d884c29950d191022a04cde" Left="[float]4" Shape="[LEDShape]Square" Top="[float]464" TrueContent="[string]On" Value="{ClusterBinding FieldName=Smoke\ Percentage_2}" Width="[float]24" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+				<Label Id="5a0681447d884c29950d191022a04cde" LabelOwner="[UIModel]a279005127fc4857bb272ba197833d1b" Left="[float]4" Text="[string]Smoke Percentage_2" Top="[float]444" />
+				<LED BaseName="[string]Square LED" FalseContent="[string]Off" Height="[float]24" Id="f7f60a24ca884d569850b5df8c32d6dc" IsReadOnly="[bool]True" Label="[UIModel]b2933c40997a4f29a71e9648f91ab083" Left="[float]4" Shape="[LEDShape]Square" Top="[float]516" TrueContent="[string]On" Value="{ClusterBinding FieldName=Current\ Indication\ Data}" Width="[float]24" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+				<Label Id="b2933c40997a4f29a71e9648f91ab083" LabelOwner="[UIModel]f7f60a24ca884d569850b5df8c32d6dc" Left="[float]4" Text="[string]Current Indication Data" Top="[float]496" />
+				<ArrayViewer ArrayElement="[UIModel]c4ee8d570f7f42849404e5521d0ac992" BaseName="[string]Array" Columns="[int]2" Dimensions="[int]1" Height="[float]36" Id="7b79b89709245a3991600e201bd651a" IndexVisibility="[Visibility]Collapsed" IsFixedSize="[bool]False" Label="[UIModel]feb225e8df2a4fc2ae11b8c45a729ec2" Left="[float]4" Orientation="[SMOrientation]Horizontal" Rows="[int]1" Top="[float]568" Value="{ClusterBinding FieldName=Sent\ (Parity)}" VerticalScrollBarVisibility="[ScrollBarVisibility]Visible" Width="[float]193">
+					<p.DefaultElementValue>0</p.DefaultElementValue>
+					<NumericText BaseName="[string]Numeric" Height="[float]24" Id="c4ee8d570f7f42849404e5521d0ac992" Interval="[uint]1" IsReadOnly="[bool]True" ValueFormatter="[string]LV:0" ValueType="[Type]UInt32" Width="[float]72" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+				</ArrayViewer>
+				<Label Id="feb225e8df2a4fc2ae11b8c45a729ec2" LabelOwner="[UIModel]7b79b89709245a3991600e201bd651a" Left="[float]4" Text="[string]Sent (Parity)" Top="[float]548" />
+				<LED BaseName="[string]Square LED" FalseContent="[string]Off" Height="[float]24" Id="a519c9769fed44f5a7e9cfa086d5f2ff" IsReadOnly="[bool]True" Label="[UIModel]88d4486184bf4439a31518af8623ac1d" Left="[float]4" Shape="[LEDShape]Square" Top="[float]632" TrueContent="[string]On" Value="{ClusterBinding FieldName=Temp_2}" Width="[float]24" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+				<Label Id="88d4486184bf4439a31518af8623ac1d" LabelOwner="[UIModel]a519c9769fed44f5a7e9cfa086d5f2ff" Left="[float]4" Text="[string]Temp_2" Top="[float]612" />
+				<LED BaseName="[string]Square LED" FalseContent="[string]Off" Height="[float]24" Id="19d9d3f8338d4ab093bc355d36b845cd" IsReadOnly="[bool]True" Label="[UIModel]18634200c75348cc974efd74dc0ff99e" Left="[float]4" Shape="[LEDShape]Square" Top="[float]684" TrueContent="[string]On" Value="{ClusterBinding FieldName=Head\ ID\ MS\ Word}" Width="[float]24" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+				<Label Id="18634200c75348cc974efd74dc0ff99e" LabelOwner="[UIModel]19d9d3f8338d4ab093bc355d36b845cd" Left="[float]4" Text="[string]Head ID MS Word" Top="[float]664" />
+				<NumericText BaseName="[string]Numeric" Height="[float]24" Id="26abb8941ff64f1189d09c3990221ee1" Interval="[int]1" IsReadOnly="[bool]True" Label="[UIModel]ad433742479f44529c2e80ad11126014" Left="[float]4" Top="[float]736" Value="{ClusterBinding FieldName=RF\ Read\ iteration}" ValueFormatter="[string]LV:0" ValueType="[Type]Int32" Width="[float]72" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+				<Label Id="ad433742479f44529c2e80ad11126014" LabelOwner="[UIModel]26abb8941ff64f1189d09c3990221ee1" Left="[float]4" Text="[string]RF Read iteration" Top="[float]716" />
+				<LED BaseName="[string]Square LED" FalseContent="[string]Off" Height="[float]24" Id="3c16e1997ae747249adbf89977cbdfba" IsReadOnly="[bool]True" Label="[UIModel]46a154099027427ea53c36fac70cbe8f" Left="[float]4" Shape="[LEDShape]Square" Top="[float]788" TrueContent="[string]On" Value="{ClusterBinding FieldName=Head\ ID\ LS\ Word_2}" Width="[float]24" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+				<Label Id="46a154099027427ea53c36fac70cbe8f" LabelOwner="[UIModel]3c16e1997ae747249adbf89977cbdfba" Left="[float]4" Text="[string]Head ID LS Word_2" Top="[float]768" />
+				<ArrayViewer ArrayElement="[UIModel]3e13ca8b0a4a433f80073e0adc233b0d" BaseName="[string]Array" Columns="[int]2" Dimensions="[int]1" Height="[float]36" Id="fa6b7f56420a4180818b6935ea791808" IndexVisibility="[Visibility]Collapsed" IsFixedSize="[bool]False" Label="[UIModel]cffc53d480f74525bbbd08a6aacf8daf" Left="[float]4" Orientation="[SMOrientation]Horizontal" Rows="[int]1" Top="[float]840" Value="{ClusterBinding FieldName=Returned}" VerticalScrollBarVisibility="[ScrollBarVisibility]Visible" Width="[float]193">
+					<p.DefaultElementValue>0</p.DefaultElementValue>
+					<NumericText BaseName="[string]Numeric" Height="[float]24" Id="3e13ca8b0a4a433f80073e0adc233b0d" Interval="[uint]1" IsReadOnly="[bool]True" ValueFormatter="[string]LV:0" ValueType="[Type]UInt32" Width="[float]72" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+				</ArrayViewer>
+				<Label Id="cffc53d480f74525bbbd08a6aacf8daf" LabelOwner="[UIModel]fa6b7f56420a4180818b6935ea791808" Left="[float]4" Text="[string]Returned" Top="[float]820" />
+				<LED BaseName="[string]Square LED" FalseContent="[string]Off" Height="[float]24" Id="891e36ff1dc14b588febe4c2a571b2fa" IsReadOnly="[bool]True" Label="[UIModel]144db5ce493d482b87df00f346341fce" Left="[float]4" Shape="[LEDShape]Square" Top="[float]904" TrueContent="[string]On" Value="{ClusterBinding FieldName=Head\ ID\ LS\ Word}" Width="[float]24" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+				<Label Id="144db5ce493d482b87df00f346341fce" LabelOwner="[UIModel]891e36ff1dc14b588febe4c2a571b2fa" Left="[float]4" Text="[string]Head ID LS Word" Top="[float]884" />
+				<LED BaseName="[string]Square LED" FalseContent="[string]Off" Height="[float]24" Id="186092d7488e45fcad8b3c994e8c74d6" IsReadOnly="[bool]True" Label="[UIModel]fb54a581a4314859b7a75772de70741a" Left="[float]4" Shape="[LEDShape]Square" Top="[float]956" TrueContent="[string]On" Value="{ClusterBinding FieldName=Head\ Status\ Data_2}" Width="[float]24" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+				<Label Id="fb54a581a4314859b7a75772de70741a" LabelOwner="[UIModel]186092d7488e45fcad8b3c994e8c74d6" Left="[float]4" Text="[string]Head Status Data_2" Top="[float]936" />
+				<LED BaseName="[string]Square LED" FalseContent="[string]Off" Height="[float]24" Id="ea0da1fc560e4af4ab55343b7b428a25" IsReadOnly="[bool]True" Label="[UIModel]b3a6349a68a345cdb4f905cf23c3426c" Left="[float]4" Shape="[LEDShape]Square" Top="[float]1008" TrueContent="[string]On" Value="{ClusterBinding FieldName=Type}" Width="[float]24" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+				<Label Id="b3a6349a68a345cdb4f905cf23c3426c" LabelOwner="[UIModel]ea0da1fc560e4af4ab55343b7b428a25" Left="[float]4" Text="[string]Type" Top="[float]988" />
+				<LED BaseName="[string]Square LED" FalseContent="[string]Off" Height="[float]24" Id="cb316612eed440b6b6639250b2c8233f" IsReadOnly="[bool]True" Label="[UIModel]9556d2eec1184a768822b1c1948a50c1" Left="[float]4" Shape="[LEDShape]Square" Top="[float]1060" TrueContent="[string]On" Value="{ClusterBinding FieldName=Alarm\ Info_2}" Width="[float]24" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+				<Label Id="9556d2eec1184a768822b1c1948a50c1" LabelOwner="[UIModel]cb316612eed440b6b6639250b2c8233f" Left="[float]4" Text="[string]Alarm Info_2" Top="[float]1040" />
+				<LED BaseName="[string]Square LED" FalseContent="[string]Off" Height="[float]24" Id="352702cb3c304b3ca83868a8f02b27cf" IsReadOnly="[bool]True" Label="[UIModel]e8e220802b724a26a55ea4e06ae11b22" Left="[float]4" Shape="[LEDShape]Square" Top="[float]1112" TrueContent="[string]On" Value="{ClusterBinding FieldName=EOL}" Width="[float]24" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+				<Label Id="e8e220802b724a26a55ea4e06ae11b22" LabelOwner="[UIModel]352702cb3c304b3ca83868a8f02b27cf" Left="[float]4" Text="[string]EOL" Top="[float]1092" />
+				<ArrayViewer ArrayElement="[UIModel]ae181d2bbe09442593c393f09337f643" BaseName="[string]Array" Columns="[int]14" Dimensions="[int]1" Height="[float]36" Id="f7b56f4004fd431d9a526b2625f32d6a" IndexVisibility="[Visibility]Collapsed" IsFixedSize="[bool]False" Label="[UIModel]a3cfd9dace9b4868a682dac753cecc37" Left="[float]4" Orientation="[SMOrientation]Horizontal" Rows="[int]1" Top="[float]1164" Value="{ClusterBinding FieldName=ACK}" VerticalScrollBarVisibility="[ScrollBarVisibility]Visible" Width="[float]1177">
+					<p.DefaultElementValue>0</p.DefaultElementValue>
+					<NumericText BaseName="[string]Numeric" Height="[float]24" Id="ae181d2bbe09442593c393f09337f643" Interval="[byte]1" IsReadOnly="[bool]True" ValueFormatter="[string]LV:0" ValueType="[Type]UInt8" Width="[float]72" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+				</ArrayViewer>
+				<Label Id="a3cfd9dace9b4868a682dac753cecc37" LabelOwner="[UIModel]f7b56f4004fd431d9a526b2625f32d6a" Left="[float]4" Text="[string]ACK" Top="[float]1144" />
+				<LED BaseName="[string]Square LED" FalseContent="[string]Off" Height="[float]24" Id="e993ee73945344f8851802d9957db97b" IsReadOnly="[bool]True" Label="[UIModel]dfd60d83fa9548d88c172ab7440497af" Left="[float]4" Shape="[LEDShape]Square" Top="[float]1228" TrueContent="[string]On" Value="{ClusterBinding FieldName=Current\ Indication\ Data_2}" Width="[float]24" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+				<Label Id="dfd60d83fa9548d88c172ab7440497af" LabelOwner="[UIModel]e993ee73945344f8851802d9957db97b" Left="[float]4" Text="[string]Current Indication Data_2" Top="[float]1208" />
+				<LED BaseName="[string]Square LED" FalseContent="[string]Off" Height="[float]24" Id="d39e6cdc780a459f9bbb8c8984975464" IsReadOnly="[bool]True" Label="[UIModel]574c10606f234835961e921921d92a47" Left="[float]4" Shape="[LEDShape]Square" Top="[float]1280" TrueContent="[string]On" Value="{ClusterBinding FieldName=Temp}" Width="[float]24" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+				<Label Id="574c10606f234835961e921921d92a47" LabelOwner="[UIModel]d39e6cdc780a459f9bbb8c8984975464" Left="[float]4" Text="[string]Temp" Top="[float]1260" />
+				<LED BaseName="[string]Square LED" FalseContent="[string]Off" Height="[float]24" Id="dede55353f8d47c4bb4c29b085583e54" IsReadOnly="[bool]True" Label="[UIModel]aed261c6553541429d657eedf38a0d4b" Left="[float]4" Shape="[LEDShape]Square" Top="[float]1332" TrueContent="[string]On" Value="{ClusterBinding FieldName=EOL_2}" Width="[float]24" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+				<Label Id="aed261c6553541429d657eedf38a0d4b" LabelOwner="[UIModel]dede55353f8d47c4bb4c29b085583e54" Left="[float]4" Text="[string]EOL_2" Top="[float]1312" />
+				<LED BaseName="[string]Square LED" FalseContent="[string]Off" Height="[float]24" Id="be5ebdea0b394335bd6060c4d991f4a7" IsReadOnly="[bool]True" Label="[UIModel]8180a936797a4818bd305960db135268" Left="[float]4" Shape="[LEDShape]Square" Top="[float]1384" TrueContent="[string]On" Value="{ClusterBinding FieldName=RF\ response\ }" Width="[float]24" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+				<Label Id="8180a936797a4818bd305960db135268" LabelOwner="[UIModel]be5ebdea0b394335bd6060c4d991f4a7" Left="[float]4" Text="[string]RF response " Top="[float]1364" />
+				<LED BaseName="[string]Square LED" FalseContent="[string]Off" Height="[float]24" Id="4f04f781b0224e439976b5dcea69ef22" IsReadOnly="[bool]True" Label="[UIModel]ff217926c076457fb69cc97707a0cae4" Left="[float]4" Shape="[LEDShape]Square" Top="[float]1436" TrueContent="[string]On" Value="{ClusterBinding FieldName=Alarm\ Info}" Width="[float]24" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+				<Label Id="ff217926c076457fb69cc97707a0cae4" LabelOwner="[UIModel]4f04f781b0224e439976b5dcea69ef22" Left="[float]4" Text="[string]Alarm Info" Top="[float]1416" />
+				<LED BaseName="[string]Square LED" FalseContent="[string]Off" Height="[float]24" Id="83a6a5b6873842f6b9f14888c1cecb7a" IsReadOnly="[bool]True" Label="[UIModel]538bfa9d19f142caa2695660ee7028c9" Left="[float]4" Shape="[LEDShape]Square" Top="[float]1488" TrueContent="[string]On" Value="{ClusterBinding FieldName=Head\ ID\ MS\ Word_2}" Width="[float]24" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+				<Label Id="538bfa9d19f142caa2695660ee7028c9" LabelOwner="[UIModel]83a6a5b6873842f6b9f14888c1cecb7a" Left="[float]4" Text="[string]Head ID MS Word_2" Top="[float]1468" />
+				<LED BaseName="[string]Square LED" FalseContent="[string]Off" Height="[float]24" Id="15b9521f502a4d43b95ed38c1465e1f1" IsReadOnly="[bool]True" Label="[UIModel]ed5c7480e9c4485bbda61a09fabf677c" Left="[float]4" Shape="[LEDShape]Square" Top="[float]1540" TrueContent="[string]On" Value="{ClusterBinding FieldName=Smoke\ Percentage}" Width="[float]24" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+				<Label Id="ed5c7480e9c4485bbda61a09fabf677c" LabelOwner="[UIModel]15b9521f502a4d43b95ed38c1465e1f1" Left="[float]4" Text="[string]Smoke Percentage" Top="[float]1520" />
+				<LED BaseName="[string]Square LED" FalseContent="[string]Off" Height="[float]24" Id="f75b8232dbd34c5d8809f3532e3e5d49" IsReadOnly="[bool]True" Label="[UIModel]330c13979f0b4a66b1da180a63958c61" Left="[float]4" Shape="[LEDShape]Square" Top="[float]1592" TrueContent="[string]On" Value="{ClusterBinding FieldName=Test\ Pass_2}" Width="[float]24" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+				<Label Id="330c13979f0b4a66b1da180a63958c61" LabelOwner="[UIModel]f75b8232dbd34c5d8809f3532e3e5d49" Left="[float]4" Text="[string]Test Pass_2" Top="[float]1572" />
+				<LED BaseName="[string]Square LED" FalseContent="[string]Off" Height="[float]24" Id="b9230a94ea2a483f9ef44a5597fecb7b" IsReadOnly="[bool]True" Label="[UIModel]86f03a81c81542e48526fc82b490541a" Left="[float]4" Shape="[LEDShape]Square" Top="[float]1644" TrueContent="[string]On" Value="{ClusterBinding FieldName=Overall\ Result}" Width="[float]24" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+				<Label Id="86f03a81c81542e48526fc82b490541a" LabelOwner="[UIModel]b9230a94ea2a483f9ef44a5597fecb7b" Left="[float]4" Text="[string]Overall Result" Top="[float]1624" />
+				<LED BaseName="[string]Square LED" FalseContent="[string]Off" Height="[float]24" Id="c8e332f2af874eb1a2016a6bc299f6c1" IsReadOnly="[bool]True" Label="[UIModel]a32d642b4674297824f027cca120ae4" Left="[float]4" Shape="[LEDShape]Square" Top="[float]1696" TrueContent="[string]On" Value="{ClusterBinding FieldName=Overall\ Result_2}" Width="[float]24" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+				<Label Id="a32d642b4674297824f027cca120ae4" LabelOwner="[UIModel]c8e332f2af874eb1a2016a6bc299f6c1" Left="[float]4" Text="[string]Overall Result_2" Top="[float]1676" />
+				<ArrayViewer ArrayElement="[UIModel]6a091c07aff14d9f91abae8b80ceedc2" BaseName="[string]Array" Columns="[int]9" Dimensions="[int]1" Height="[float]36" Id="3f35a59d9dc341428f2305109facd90b" IndexVisibility="[Visibility]Collapsed" IsFixedSize="[bool]False" Label="[UIModel]695371e32d35444c863e21465f620550" Left="[float]4" Orientation="[SMOrientation]Horizontal" Rows="[int]1" Top="[float]1748" Value="{ClusterBinding FieldName=Individual\ Results}" VerticalScrollBarVisibility="[ScrollBarVisibility]Visible" Width="[float]335">
+					<p.DefaultElementValue>False</p.DefaultElementValue>
+					<LED BaseName="[string]Square LED" FalseContent="[string]Off" Height="[float]24" Id="6a091c07aff14d9f91abae8b80ceedc2" IsReadOnly="[bool]True" Shape="[LEDShape]Square" TrueContent="[string]On" Width="[float]24" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+				</ArrayViewer>
+				<Label Id="695371e32d35444c863e21465f620550" LabelOwner="[UIModel]3f35a59d9dc341428f2305109facd90b" Left="[float]4" Text="[string]Individual Results" Top="[float]1728" />
+			</Cluster>
+		</FrontPanelUnplacedItems>
+		<BlockDiagram Id="b61da54c4a6f404dac27b9385a7b082c">
+			<ClusterLiteral Bounds="-1825 1875 661 1258" DataType="@551a786de6df4c909b358e6763cb1d9a" Id="d7df73d2f29044e682a894a7db84f133" Label="2ade39d0de6c48e5a3028756d32c0710" xmlns="http://www.ni.com/MocCommon">
+				<p.Data>
+					<Cluster>
+						<Field1>False</Field1>
+						<Field2>False</Field2>
+						<Field3>False</Field3>
+						<Field4>null</Field4>
+						<Field5>False</Field5>
+						<Field6>False</Field6>
+						<Field7>False</Field7>
+						<Field8>null</Field8>
+						<Field9>False</Field9>
+						<Field10>False</Field10>
+						<Field11>null</Field11>
+						<Field12>False</Field12>
+						<Field13>False</Field13>
+						<Field14>0</Field14>
+						<Field15>False</Field15>
+						<Field16>null</Field16>
+						<Field17>False</Field17>
+						<Field18>False</Field18>
+						<Field19>False</Field19>
+						<Field20>False</Field20>
+						<Field21>False</Field21>
+						<Field22>null</Field22>
+						<Field23>False</Field23>
+						<Field24>False</Field24>
+						<Field25>False</Field25>
+						<Field26>False</Field26>
+						<Field27>False</Field27>
+						<Field28>False</Field28>
+						<Field29>False</Field29>
+						<Field30>False</Field30>
+						<Field31>False</Field31>
+						<Field32>False</Field32>
+						<Field33>null</Field33>
+					</Cluster>
+				</p.Data>
+				<ClusterBehavior AutoArrange="ArrangeVertically" />
+				<Literal Bounds="2 19 25 15" DataType="Boolean" Id="a9001583ee154251b78486c8f3b47204" Label="bf14feeb76f64262958884e0209ce25e">
+					<p.Data>False</p.Data>
+					<BooleanBehavior />
+				</Literal>
+				<NodeLabel AttachedTo="a9001583ee154251b78486c8f3b47204" Bounds="2 2 82 14" Id="bf14feeb76f64262958884e0209ce25e" xmlns="http://www.ni.com/PlatformFramework">
+					<p.Text>RF response_2</p.Text>
+				</NodeLabel>
+				<Literal Bounds="2 55 25 15" DataType="Boolean" Id="f64e97ff6bfd4746922b0900355a2a43" Label="391f9b6e65fc42e185994a593dcf01ec">
+					<p.Data>False</p.Data>
+					<BooleanBehavior />
+				</Literal>
+				<NodeLabel AttachedTo="f64e97ff6bfd4746922b0900355a2a43" Bounds="2 38 134 14" Id="391f9b6e65fc42e185994a593dcf01ec" xmlns="http://www.ni.com/PlatformFramework">
+					<p.Text>ED Message Received_2</p.Text>
+				</NodeLabel>
+				<Literal Bounds="2 91 25 15" DataType="Boolean" Id="1d404d1a45494835976c404469e03fe8" Label="3c25b6481aa443c6837cdc551ae3888b">
+					<p.Data>False</p.Data>
+					<BooleanBehavior />
+				</Literal>
+				<NodeLabel AttachedTo="1d404d1a45494835976c404469e03fe8" Bounds="2 74 71 14" Id="3c25b6481aa443c6837cdc551ae3888b" xmlns="http://www.ni.com/PlatformFramework">
+					<p.Text>UART ACK_2</p.Text>
+				</NodeLabel>
+				<ArrayLiteral Bounds="2 127 136 25" DataType="UInt32[]" Id="30cf383f101146348b12b0ef1b1f4b92" Label="ca05ed30b0b34923bbeddb7ad9f2148c">
+					<p.Data>null</p.Data>
+					<ArrayBehavior ElementType="UInt32" IndexEditorWidth="42" Orientation="Horizontal" VisibleColumns="2">
+						<p.DefaultElementValue>0</p.DefaultElementValue>
+					</ArrayBehavior>
+					<Literal Bounds="48 2 40 15" DataType="UInt32" Id="1c01aa6eb584e1caec6106197235be4">
+						<NumericBehavior Interpretation="Exact" Radix="Hexadecimal" ValueFormatter="LV:0" />
+					</Literal>
+				</ArrayLiteral>
+				<NodeLabel AttachedTo="30cf383f101146348b12b0ef1b1f4b92" Bounds="2 110 96 14" Id="ca05ed30b0b34923bbeddb7ad9f2148c" xmlns="http://www.ni.com/PlatformFramework">
+					<p.Text>Returned (Parity)</p.Text>
+				</NodeLabel>
+				<Literal Bounds="2 173 25 15" DataType="Boolean" Id="893a7b30ea224ac2b5fd6a03b9594886" Label="42fbbe252f004c2d804f52cc95e03859">
+					<p.Data>False</p.Data>
+					<BooleanBehavior />
+				</Literal>
+				<NodeLabel AttachedTo="893a7b30ea224ac2b5fd6a03b9594886" Bounds="2 156 89 14" Id="42fbbe252f004c2d804f52cc95e03859" xmlns="http://www.ni.com/PlatformFramework">
+					<p.Text>Test Type Match</p.Text>
+				</NodeLabel>
+				<Literal Bounds="2 209 25 15" DataType="Boolean" Id="10e7a400bb5e43c3ab39cd396de6e38a" Label="c2b7e5719af542a2acc2bdb34621bd94">
+					<p.Data>False</p.Data>
+					<BooleanBehavior />
+				</Literal>
+				<NodeLabel AttachedTo="10e7a400bb5e43c3ab39cd396de6e38a" Bounds="2 192 40 14" Id="c2b7e5719af542a2acc2bdb34621bd94" xmlns="http://www.ni.com/PlatformFramework">
+					<p.Text>Type_2</p.Text>
+				</NodeLabel>
+				<Literal Bounds="2 245 25 15" DataType="Boolean" Id="1150dc0196694dca9bdb5a83317280ba" Label="caceef71e1a14706967d73562e9f8aa2">
+					<p.Data>False</p.Data>
+					<BooleanBehavior />
+				</Literal>
+				<NodeLabel AttachedTo="1150dc0196694dca9bdb5a83317280ba" Bounds="2 228 98 14" Id="caceef71e1a14706967d73562e9f8aa2" xmlns="http://www.ni.com/PlatformFramework">
+					<p.Text>Head Status Data</p.Text>
+				</NodeLabel>
+				<ArrayLiteral Bounds="2 281 136 25" DataType="UInt32[]" Id="c194165291604c6092d612f8b95e6fe1" Label="a953ac049c0544068908a7c67c8e7ad9">
+					<p.Data>null</p.Data>
+					<ArrayBehavior ElementType="UInt32" IndexEditorWidth="42" Orientation="Horizontal" VisibleColumns="2">
+						<p.DefaultElementValue>0</p.DefaultElementValue>
+					</ArrayBehavior>
+					<Literal Bounds="48 2 40 15" DataType="UInt32" Id="49d7d6ff1d424a318ccda56e0b3c5560">
+						<NumericBehavior Interpretation="Exact" Radix="Hexadecimal" ValueFormatter="LV:0" />
+					</Literal>
+				</ArrayLiteral>
+				<NodeLabel AttachedTo="c194165291604c6092d612f8b95e6fe1" Bounds="2 264 26 14" Id="a953ac049c0544068908a7c67c8e7ad9" xmlns="http://www.ni.com/PlatformFramework">
+					<p.Text>Sent</p.Text>
+				</NodeLabel>
+				<Literal Bounds="2 327 25 15" DataType="Boolean" Id="4384ee7575d841dca10c37898ad7dc52" Label="4117af285e814b8587c38aeb22cbfa16">
+					<p.Data>False</p.Data>
+					<BooleanBehavior />
+				</Literal>
+				<NodeLabel AttachedTo="4384ee7575d841dca10c37898ad7dc52" Bounds="2 310 117 14" Id="4117af285e814b8587c38aeb22cbfa16" xmlns="http://www.ni.com/PlatformFramework">
+					<p.Text>Smoke Percentage_2</p.Text>
+				</NodeLabel>
+				<Literal Bounds="2 363 25 15" DataType="Boolean" Id="26907b51120d49319cb59fa61c63a3f7" Label="b8c1451f41d745ef975a072366e23319">
+					<p.Data>False</p.Data>
+					<BooleanBehavior />
+				</Literal>
+				<NodeLabel AttachedTo="26907b51120d49319cb59fa61c63a3f7" Bounds="2 346 131 14" Id="b8c1451f41d745ef975a072366e23319" xmlns="http://www.ni.com/PlatformFramework">
+					<p.Text>Current Indication Data</p.Text>
+				</NodeLabel>
+				<ArrayLiteral Bounds="2 399 136 25" DataType="UInt32[]" Id="1a854c27209c488c800c37b920ace99d" Label="bdadf5286cd94654b88b101501ad3487">
+					<p.Data>null</p.Data>
+					<ArrayBehavior ElementType="UInt32" IndexEditorWidth="42" Orientation="Horizontal" VisibleColumns="2">
+						<p.DefaultElementValue>0</p.DefaultElementValue>
+					</ArrayBehavior>
+					<Literal Bounds="90 2 40 15" DataType="UInt32" Id="a70c171ae2ac49bd88033cf0c3732835">
+						<NumericBehavior Interpretation="Exact" Radix="Hexadecimal" ValueFormatter="LV:0" />
+					</Literal>
+				</ArrayLiteral>
+				<NodeLabel AttachedTo="1a854c27209c488c800c37b920ace99d" Bounds="2 382 71 14" Id="bdadf5286cd94654b88b101501ad3487" xmlns="http://www.ni.com/PlatformFramework">
+					<p.Text>Sent (Parity)</p.Text>
+				</NodeLabel>
+				<Literal Bounds="2 445 25 15" DataType="Boolean" Id="db3299df80454cd6b7b4dced86eaf4f8" Label="a9cc14f13bb84665a8835e099148b1fc">
+					<p.Data>False</p.Data>
+					<BooleanBehavior />
+				</Literal>
+				<NodeLabel AttachedTo="db3299df80454cd6b7b4dced86eaf4f8" Bounds="2 428 44 14" Id="a9cc14f13bb84665a8835e099148b1fc" xmlns="http://www.ni.com/PlatformFramework">
+					<p.Text>Temp_2</p.Text>
+				</NodeLabel>
+				<Literal Bounds="2 481 25 15" DataType="Boolean" Id="90d23222c23142cc8d136761b838087f" Label="588cac659a8448dc81b89d2af656915b">
+					<p.Data>False</p.Data>
+					<BooleanBehavior />
+				</Literal>
+				<NodeLabel AttachedTo="90d23222c23142cc8d136761b838087f" Bounds="2 464 99 14" Id="588cac659a8448dc81b89d2af656915b" xmlns="http://www.ni.com/PlatformFramework">
+					<p.Text>Head ID MS Word</p.Text>
+				</NodeLabel>
+				<Literal Bounds="2 517 40 15" DataType="Int32" Id="d61d30a142334d5495908ff3b6f79434" Label="b917d126e90b442eaa3341b6d8a8aca8">
+					<p.Data>0</p.Data>
+					<NumericBehavior Interpretation="Exact" ValueFormatter="LV:0" />
+				</Literal>
+				<NodeLabel AttachedTo="d61d30a142334d5495908ff3b6f79434" Bounds="2 500 96 14" Id="b917d126e90b442eaa3341b6d8a8aca8" xmlns="http://www.ni.com/PlatformFramework">
+					<p.Text>RF Read iteration</p.Text>
+				</NodeLabel>
+				<Literal Bounds="2 553 25 15" DataType="Boolean" Id="62ae19346461429b8550a1946bafba4c" Label="67819cdbcd684d608e2899f23a7e7a2e">
+					<p.Data>False</p.Data>
+					<BooleanBehavior />
+				</Literal>
+				<NodeLabel AttachedTo="62ae19346461429b8550a1946bafba4c" Bounds="2 536 110 14" Id="67819cdbcd684d608e2899f23a7e7a2e" xmlns="http://www.ni.com/PlatformFramework">
+					<p.Text>Head ID LS Word_2</p.Text>
+				</NodeLabel>
+				<ArrayLiteral Bounds="2 589 136 25" DataType="UInt32[]" Id="5a034c4f517740ed8a35dcd96af1b66f" Label="c3ffdc470a1d4b8da62980641fa9d4a3">
+					<p.Data>null</p.Data>
+					<ArrayBehavior ElementType="UInt32" IndexEditorWidth="42" Orientation="Horizontal" VisibleColumns="2">
+						<p.DefaultElementValue>0</p.DefaultElementValue>
+					</ArrayBehavior>
+					<Literal Bounds="48 2 40 15" DataType="UInt32" Id="6a1c01fd1ac3401c9cb4820e1f62ed91">
+						<NumericBehavior Interpretation="Exact" Radix="Hexadecimal" ValueFormatter="LV:0" />
+					</Literal>
+				</ArrayLiteral>
+				<NodeLabel AttachedTo="5a034c4f517740ed8a35dcd96af1b66f" Bounds="2 572 51 14" Id="c3ffdc470a1d4b8da62980641fa9d4a3" xmlns="http://www.ni.com/PlatformFramework">
+					<p.Text>Returned</p.Text>
+				</NodeLabel>
+				<Literal Bounds="2 635 25 15" DataType="Boolean" Id="dd7c94fcba004e1a91ed4d6d96ce270c" Label="9db5caf1c3c44cbd8848fa4e830c033c">
+					<p.Data>False</p.Data>
+					<BooleanBehavior />
+				</Literal>
+				<NodeLabel AttachedTo="dd7c94fcba004e1a91ed4d6d96ce270c" Bounds="2 618 96 14" Id="9db5caf1c3c44cbd8848fa4e830c033c" xmlns="http://www.ni.com/PlatformFramework">
+					<p.Text>Head ID LS Word</p.Text>
+				</NodeLabel>
+				<Literal Bounds="2 671 25 15" DataType="Boolean" Id="2043ea38690b419784e4b83f78f2389b" Label="1694f17a84a642f39efd0acded780847">
+					<p.Data>False</p.Data>
+					<BooleanBehavior />
+				</Literal>
+				<NodeLabel AttachedTo="2043ea38690b419784e4b83f78f2389b" Bounds="2 654 112 14" Id="1694f17a84a642f39efd0acded780847" xmlns="http://www.ni.com/PlatformFramework">
+					<p.Text>Head Status Data_2</p.Text>
+				</NodeLabel>
+				<Literal Bounds="2 707 25 15" DataType="Boolean" Id="e67c1b4514d348d0ad1893537e36f2a4" Label="1a5a3e47614b4c6bab8f61e719a4fb28">
+					<p.Data>False</p.Data>
+					<BooleanBehavior />
+				</Literal>
+				<NodeLabel AttachedTo="e67c1b4514d348d0ad1893537e36f2a4" Bounds="2 690 26 14" Id="1a5a3e47614b4c6bab8f61e719a4fb28" xmlns="http://www.ni.com/PlatformFramework">
+					<p.Text>Type</p.Text>
+				</NodeLabel>
+				<Literal Bounds="2 743 25 15" DataType="Boolean" Id="6ffdf266d0114f638edda10e1254544a" Label="3d59d671df64f53ae79560eeb674669">
+					<p.Data>False</p.Data>
+					<BooleanBehavior />
+				</Literal>
+				<NodeLabel AttachedTo="6ffdf266d0114f638edda10e1254544a" Bounds="2 726 73 14" Id="3d59d671df64f53ae79560eeb674669" xmlns="http://www.ni.com/PlatformFramework">
+					<p.Text>Alarm Info_2</p.Text>
+				</NodeLabel>
+				<Literal Bounds="2 779 25 15" DataType="Boolean" Id="5b9402a6bc434854866b02d03756bc8b" Label="d794bba6de7f4f928f587613d935f672">
+					<p.Data>False</p.Data>
+					<BooleanBehavior />
+				</Literal>
+				<NodeLabel AttachedTo="5b9402a6bc434854866b02d03756bc8b" Bounds="2 762 22 14" Id="d794bba6de7f4f928f587613d935f672" xmlns="http://www.ni.com/PlatformFramework">
+					<p.Text>EOL</p.Text>
+				</NodeLabel>
+				<ArrayLiteral Bounds="2 815 640 25" DataType="UInt8[]" Id="ef81f23ecd864c9ab4c2c3f077eee2b3" Label="5be556e94e9d407ba4db5a501bf7058a">
+					<p.Data>null</p.Data>
+					<ArrayBehavior ElementType="UInt8" IndexEditorWidth="42" Orientation="Horizontal" VisibleColumns="14">
+						<p.DefaultElementValue>0</p.DefaultElementValue>
+					</ArrayBehavior>
+					<Literal Bounds="594 2 40 15" DataType="UInt8" Id="1c9bc7d7964f498cbbcbaf34f03a5280">
+						<NumericBehavior Interpretation="Exact" Radix="Hexadecimal" ValueFormatter="LV:0" />
+					</Literal>
+				</ArrayLiteral>
+				<NodeLabel AttachedTo="ef81f23ecd864c9ab4c2c3f077eee2b3" Bounds="2 798 23 14" Id="5be556e94e9d407ba4db5a501bf7058a" xmlns="http://www.ni.com/PlatformFramework">
+					<p.Text>ACK</p.Text>
+				</NodeLabel>
+				<Literal Bounds="2 861 25 15" DataType="Boolean" Id="38be0da8db674ba59f67479b705146ab" Label="7f14a710123e468493b5edc52ab7c5ae">
+					<p.Data>False</p.Data>
+					<BooleanBehavior />
+				</Literal>
+				<NodeLabel AttachedTo="38be0da8db674ba59f67479b705146ab" Bounds="2 844 145 14" Id="7f14a710123e468493b5edc52ab7c5ae" xmlns="http://www.ni.com/PlatformFramework">
+					<p.Text>Current Indication Data_2</p.Text>
+				</NodeLabel>
+				<Literal Bounds="2 897 25 15" DataType="Boolean" Id="cd57560b0d04d7dbb6322831ed82ed5" Label="37f8197dabb244179ec5567f829b6652">
+					<p.Data>False</p.Data>
+					<BooleanBehavior />
+				</Literal>
+				<NodeLabel AttachedTo="cd57560b0d04d7dbb6322831ed82ed5" Bounds="2 880 30 14" Id="37f8197dabb244179ec5567f829b6652" xmlns="http://www.ni.com/PlatformFramework">
+					<p.Text>Temp</p.Text>
+				</NodeLabel>
+				<Literal Bounds="2 933 25 15" DataType="Boolean" Id="9a327fc44bed4b1aaceee3e6be95419d" Label="a0536b7c4ed94261a0ac766173906df4">
+					<p.Data>False</p.Data>
+					<BooleanBehavior />
+				</Literal>
+				<NodeLabel AttachedTo="9a327fc44bed4b1aaceee3e6be95419d" Bounds="2 916 36 14" Id="a0536b7c4ed94261a0ac766173906df4" xmlns="http://www.ni.com/PlatformFramework">
+					<p.Text>EOL_2</p.Text>
+				</NodeLabel>
+				<Literal Bounds="2 969 25 15" DataType="Boolean" Id="4504267e6c449cda49da50537df8171" Label="c4052374f6b447c4be96e250ea3aae2c">
+					<p.Data>False</p.Data>
+					<BooleanBehavior />
+				</Literal>
+				<NodeLabel AttachedTo="4504267e6c449cda49da50537df8171" Bounds="2 952 72 14" Id="c4052374f6b447c4be96e250ea3aae2c" xmlns="http://www.ni.com/PlatformFramework">
+					<p.Text>"RF response "</p.Text>
+				</NodeLabel>
+				<Literal Bounds="2 1005 25 15" DataType="Boolean" Id="1ce9e2588ba145388246400a57cd0290" Label="23d68fe16da64b63a4d02b234a5d96e3">
+					<p.Data>False</p.Data>
+					<BooleanBehavior />
+				</Literal>
+				<NodeLabel AttachedTo="1ce9e2588ba145388246400a57cd0290" Bounds="2 988 59 14" Id="23d68fe16da64b63a4d02b234a5d96e3" xmlns="http://www.ni.com/PlatformFramework">
+					<p.Text>Alarm Info</p.Text>
+				</NodeLabel>
+				<Literal Bounds="2 1041 25 15" DataType="Boolean" Id="13aad6768ed14e1eac898d97b8b1a491" Label="6b1300c27e944bc99a18636747ca9517">
+					<p.Data>False</p.Data>
+					<BooleanBehavior />
+				</Literal>
+				<NodeLabel AttachedTo="13aad6768ed14e1eac898d97b8b1a491" Bounds="2 1024 113 14" Id="6b1300c27e944bc99a18636747ca9517" xmlns="http://www.ni.com/PlatformFramework">
+					<p.Text>Head ID MS Word_2</p.Text>
+				</NodeLabel>
+				<Literal Bounds="2 1077 25 15" DataType="Boolean" Id="1ff3ad8810434e86a151adb328812a63" Label="1c853a6133504947931d3584f2ecae22">
+					<p.Data>False</p.Data>
+					<BooleanBehavior />
+				</Literal>
+				<NodeLabel AttachedTo="1ff3ad8810434e86a151adb328812a63" Bounds="2 1060 103 14" Id="1c853a6133504947931d3584f2ecae22" xmlns="http://www.ni.com/PlatformFramework">
+					<p.Text>Smoke Percentage</p.Text>
+				</NodeLabel>
+				<Literal Bounds="2 1113 25 15" DataType="Boolean" Id="7b5b7b8101fe481fb5f201dcf64f1909" Label="786d72579734495e96f1d9b909b37ee6">
+					<p.Data>False</p.Data>
+					<BooleanBehavior />
+				</Literal>
+				<NodeLabel AttachedTo="7b5b7b8101fe481fb5f201dcf64f1909" Bounds="2 1096 65 14" Id="786d72579734495e96f1d9b909b37ee6" xmlns="http://www.ni.com/PlatformFramework">
+					<p.Text>Test Pass_2</p.Text>
+				</NodeLabel>
+				<Literal Bounds="2 1149 25 15" DataType="Boolean" Id="8696d309d9b44459a5432fdf4e5795a5" Label="195150a5c4744b48963f9cebc9e6d1df">
+					<p.Data>False</p.Data>
+					<BooleanBehavior />
+				</Literal>
+				<NodeLabel AttachedTo="8696d309d9b44459a5432fdf4e5795a5" Bounds="2 1132 77 14" Id="195150a5c4744b48963f9cebc9e6d1df" xmlns="http://www.ni.com/PlatformFramework">
+					<p.Text>Overall Result</p.Text>
+				</NodeLabel>
+				<Literal Bounds="2 1185 25 15" DataType="Boolean" Id="adde5a2ee2dc4f62be40da493660f840" Label="854948508f1a41e58f25357f95b817a0">
+					<p.Data>False</p.Data>
+					<BooleanBehavior />
+				</Literal>
+				<NodeLabel AttachedTo="adde5a2ee2dc4f62be40da493660f840" Bounds="2 1168 91 14" Id="854948508f1a41e58f25357f95b817a0" xmlns="http://www.ni.com/PlatformFramework">
+					<p.Text>Overall Result_2</p.Text>
+				</NodeLabel>
+				<ArrayLiteral Bounds="2 1221 205 25" DataType="Boolean[]" Id="2b4a55fb0ed34d9b8843c9e661b904e9" Label="6d9a5fcbf4f04f72a00bcd7ffbdd142d">
+					<p.Data>null</p.Data>
+					<ArrayBehavior ElementType="Boolean" IndexEditorWidth="42" Orientation="Horizontal" VisibleColumns="9">
+						<p.DefaultElementValue>False</p.DefaultElementValue>
+					</ArrayBehavior>
+					<Literal Bounds="48 2 15 15" DataType="Boolean" Id="30a0b9133cb34b4b8e59ee17bb31d734">
+						<BooleanBehavior />
+					</Literal>
+				</ArrayLiteral>
+				<NodeLabel AttachedTo="2b4a55fb0ed34d9b8843c9e661b904e9" Bounds="2 1204 99 14" Id="6d9a5fcbf4f04f72a00bcd7ffbdd142d" xmlns="http://www.ni.com/PlatformFramework">
+					<p.Text>Individual Results</p.Text>
+				</NodeLabel>
+			</ClusterLiteral>
+			<NodeLabel AttachedTo="d7df73d2f29044e682a894a7db84f133" Bounds="-1825 1857 30 15" Id="2ade39d0de6c48e5a3028756d32c0710" Visible="False" xmlns="http://www.ni.com/PlatformFramework">
+				<p.Text>Cluster</p.Text>
+			</NodeLabel>
+			<DataAccessor Bounds="-1134 1875 40 15" DataItem="8d5b8d6ffb2a4a709f3dced8f3700de8" Id="d4a9f8dcd8e147749f1b50041282bf80" Label="4669252f554a42c59c93ed50ec65493c" xmlns="http://www.ni.com/MocCommon">
+				<Terminal DataType="@551a786de6df4c909b358e6763cb1d9a" Direction="Input" Hotspot="3 5" Id="Value" xmlns="http://www.ni.com/PlatformFramework" />
+			</DataAccessor>
+			<NodeLabel AttachedTo="d4a9f8dcd8e147749f1b50041282bf80" Bounds="-1089 1875 39 14" Id="4669252f554a42c59c93ed50ec65493c" xmlns="http://www.ni.com/PlatformFramework">
+				<p.Text>Cluster</p.Text>
+			</NodeLabel>
+			<Wire Id="a4b7b75c16b347c9b7aa53dc7ba4dd94" Joints="N(d7df73d2f29044e682a894a7db84f133:Out)|(-1164,1880) N(d4a9f8dcd8e147749f1b50041282bf80:Value)|(-1131,1880)" xmlns="http://www.ni.com/PlatformFramework" />
+		</BlockDiagram>
+		<NativeFrontPanel Height="[float]1600" HtmlPanel="[bool]False" Id="62f7505e8c5d42ccb64795901291a65d" Left="[float]0" PanelSizeMode="Fixed" Top="[float]0" Width="[float]2000">
+			<PanelExecutionWindow Id="746aea84146e4c4f99758cbc998f554e" />
+		</NativeFrontPanel>
+		<DataItem AdaptToDiagramType="True" CallDirection="Output" CallIndex="0" DataType="@551a786de6df4c909b358e6763cb1d9a" Id="8d5b8d6ffb2a4a709f3dced8f3700de8" Name="Cluster" xmlns="http://www.ni.com/MocCommon">
+			<p.DefaultValue>
+				<Cluster>
+					<Field1>False</Field1>
+					<Field2>False</Field2>
+					<Field3>False</Field3>
+					<Field4>null</Field4>
+					<Field5>False</Field5>
+					<Field6>False</Field6>
+					<Field7>False</Field7>
+					<Field8>null</Field8>
+					<Field9>False</Field9>
+					<Field10>False</Field10>
+					<Field11>null</Field11>
+					<Field12>False</Field12>
+					<Field13>False</Field13>
+					<Field14>0</Field14>
+					<Field15>False</Field15>
+					<Field16>null</Field16>
+					<Field17>False</Field17>
+					<Field18>False</Field18>
+					<Field19>False</Field19>
+					<Field20>False</Field20>
+					<Field21>False</Field21>
+					<Field22>null</Field22>
+					<Field23>False</Field23>
+					<Field24>False</Field24>
+					<Field25>False</Field25>
+					<Field26>False</Field26>
+					<Field27>False</Field27>
+					<Field28>False</Field28>
+					<Field29>False</Field29>
+					<Field30>False</Field30>
+					<Field31>False</Field31>
+					<Field32>False</Field32>
+					<Field33>null</Field33>
+				</Cluster>
+			</p.DefaultValue>
+		</DataItem>
+	</VirtualInstrument>
+	<DataTypeReferenceTable xmlns="http://www.ni.com/PlatformFramework">
+		<p.TypeReference TypeId="551a786de6df4c909b358e6763cb1d9a">
+			<Composite Id="1" Name="" Cluster="" GenericTypeDefinition="Void" BaseType="Void">
+				<Members>
+					<Field FieldAccessPolicy="ReadWrite" Name="RF response_2" DataType="Boolean" />
+					<Field FieldAccessPolicy="ReadWrite" Name="ED Message Received_2" DataType="Boolean" />
+					<Field FieldAccessPolicy="ReadWrite" Name="UART ACK_2" DataType="Boolean" />
+					<Field FieldAccessPolicy="ReadWrite" Name="Returned (Parity)" DataType="UInt32[]" />
+					<Field FieldAccessPolicy="ReadWrite" Name="Test Type Match" DataType="Boolean" />
+					<Field FieldAccessPolicy="ReadWrite" Name="Type_2" DataType="Boolean" />
+					<Field FieldAccessPolicy="ReadWrite" Name="Head Status Data" DataType="Boolean" />
+					<Field FieldAccessPolicy="ReadWrite" Name="Sent" DataType="UInt32[]" />
+					<Field FieldAccessPolicy="ReadWrite" Name="Smoke Percentage_2" DataType="Boolean" />
+					<Field FieldAccessPolicy="ReadWrite" Name="Current Indication Data" DataType="Boolean" />
+					<Field FieldAccessPolicy="ReadWrite" Name="Sent (Parity)" DataType="UInt32[]" />
+					<Field FieldAccessPolicy="ReadWrite" Name="Temp_2" DataType="Boolean" />
+					<Field FieldAccessPolicy="ReadWrite" Name="Head ID MS Word" DataType="Boolean" />
+					<Field FieldAccessPolicy="ReadWrite" Name="RF Read iteration" DataType="Int32" />
+					<Field FieldAccessPolicy="ReadWrite" Name="Head ID LS Word_2" DataType="Boolean" />
+					<Field FieldAccessPolicy="ReadWrite" Name="Returned" DataType="UInt32[]" />
+					<Field FieldAccessPolicy="ReadWrite" Name="Head ID LS Word" DataType="Boolean" />
+					<Field FieldAccessPolicy="ReadWrite" Name="Head Status Data_2" DataType="Boolean" />
+					<Field FieldAccessPolicy="ReadWrite" Name="Type" DataType="Boolean" />
+					<Field FieldAccessPolicy="ReadWrite" Name="Alarm Info_2" DataType="Boolean" />
+					<Field FieldAccessPolicy="ReadWrite" Name="EOL" DataType="Boolean" />
+					<Field FieldAccessPolicy="ReadWrite" Name="ACK" DataType="UInt8[]" />
+					<Field FieldAccessPolicy="ReadWrite" Name="Current Indication Data_2" DataType="Boolean" />
+					<Field FieldAccessPolicy="ReadWrite" Name="Temp" DataType="Boolean" />
+					<Field FieldAccessPolicy="ReadWrite" Name="EOL_2" DataType="Boolean" />
+					<Field FieldAccessPolicy="ReadWrite" Name="RF response " DataType="Boolean" />
+					<Field FieldAccessPolicy="ReadWrite" Name="Alarm Info" DataType="Boolean" />
+					<Field FieldAccessPolicy="ReadWrite" Name="Head ID MS Word_2" DataType="Boolean" />
+					<Field FieldAccessPolicy="ReadWrite" Name="Smoke Percentage" DataType="Boolean" />
+					<Field FieldAccessPolicy="ReadWrite" Name="Test Pass_2" DataType="Boolean" />
+					<Field FieldAccessPolicy="ReadWrite" Name="Overall Result" DataType="Boolean" />
+					<Field FieldAccessPolicy="ReadWrite" Name="Overall Result_2" DataType="Boolean" />
+					<Field FieldAccessPolicy="ReadWrite" Name="Individual Results" DataType="Boolean[]" />
+				</Members>
+			</Composite>
+		</p.TypeReference>
+	</DataTypeReferenceTable>
+</SourceFile>
